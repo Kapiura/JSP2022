@@ -1,2 +1,1 @@
-import cmath
-print(cmath.sqrt(-17))
+print((-17)**(1/2))
