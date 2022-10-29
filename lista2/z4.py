@@ -1,8 +1,11 @@
-word = input("Podaj napis: ")
+word = input("Podaj wyraz: ")
+word = list(word)
 
-for i in range(len(word)-1):
-    i+=1
+i=1
+while i < len(word)-1:
     if word[i] == word[0]:
-        word.replace(word[i],"s")
+        word[i]="$"
+    i+=1
 
-print (word)
+word = "".join(word)
+print(word)

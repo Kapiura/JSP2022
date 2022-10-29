@@ -1,3 +1,6 @@
+from socket import J1939_EE_INFO_NONE
+
+
 s = ["Kasia", "Basia", "Marek", "Darek"]
 print (s)
 
@@ -16,10 +19,14 @@ print (s[0:2])
 
 ls = len(s)
 print (s[ls-2:])
-for i in s:
-    if i == "Basia":
-        s.remove("Basia")
-        s.remove("Basia")
+
+i=ls-1
+while i >= 0:
+    if s[i] == "Basia":
+        s.pop(i)
+    i-=1
+
+
 print (s)
 
 print (len(s))
