@@ -1,7 +1,4 @@
-a = 4
-b = 2
+def f(x, switch="r2d"):
 
-print (a+b)
-print (a-b)
-print (a*b)
-print (int(a/b))
+f(180)
+f(3,14,switch="d2r")
