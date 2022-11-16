@@ -5,5 +5,5 @@ def ziut(l):
     l = list(dict.fromkeys(l))
     print(l)
 
-lista = [9,9,6]
+lista = [9,9,9,9,9,9,8,9,6]
 ziut(lista)
