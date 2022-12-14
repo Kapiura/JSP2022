@@ -41,10 +41,7 @@ def zamiana(liczba):
     slownie = []
     liczba = str(liczba)
     listaliczba= list(liczba)
-    trulista = []
-    for i in range(len(listaliczba)):
-        w = int(listaliczba[i])
-        trulista.append(w) 
+    trulista = [int(w) for w in listaliczba]
     l = len(trulista)
     for i in range(len(trulista)):
         w = 10**(l-1)
