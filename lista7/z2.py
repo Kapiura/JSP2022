@@ -51,7 +51,6 @@ sortuj(los)
 
 
 
-
 #start  = perf_counter()
 #koniec = perf_counter()
 #czas = koniec-start
