@@ -24,7 +24,7 @@ def szyfrowanie(txt,kry):
 
 
 #path = str(input("Podaj ścieżkę do pliku: "))
-path = 'payload_338066.txt'
+path = 'hacked_338066.txt'
 
 if os.path.exists(path)!=True:
     print("Błędnie podana ścieżka")

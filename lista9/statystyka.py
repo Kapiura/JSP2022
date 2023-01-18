@@ -1,7 +1,7 @@
 import numpy as np
 import sys
 
-cyferki = []
+
 
 if len(sys.argv) == 1:
     dane = [int(line) for line in sys.stdin]
