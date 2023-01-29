@@ -13,16 +13,13 @@ class Przelicznik_walut:
         for i in self.kursy:
             print(i, self.kursy[i])
     def przelicz_pln_na_inna(self,kwota,waluta):
-        es = str(round(kwota/self.kursy[waluta],2))
-        es = es+' '+waluta
+        es = str(round(kwota/self.kursy[waluta],2))+' '+waluta
         return es
     def przelicz_inna_na_pln(self,kwota,waluta):
-        es = str(round(kwota*self.kursy[waluta],2))
-        es = es+' '+waluta
+        es = str(round(kwota*self.kursy[waluta],2))+' PLN'
         return es
     def przelicz_inna_na_inna(self,kwota,waluta,waluta2):
-        es = str(round(kwota*self.kursy[waluta]/self.kursy[waluta2],2))
-        es = es+' '+waluta2
+        es = str(round(kwota*self.kursy[waluta]/self.kursy[waluta2],2))+' '+waluta2
         return es
 
         
